@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Projects = () => {
-    return <section className="Projects">Projects</section>;
+    return <section id="projects">Projects</section>;
 };
 
 export default Projects;

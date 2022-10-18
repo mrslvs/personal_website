@@ -23,3 +23,27 @@ body {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+header {
+    height: 70px;
+}
+
+section {
+    height: calc(100vh - 70px);
+}
+
+#about {
+    background-color: bisque;
+}
+
+#projects {
+    background-color: thistle;
+}
+
+#skills {
+    background-color: skyblue;
+}
+
+#contact {
+    background-color: chartreuse;
+}

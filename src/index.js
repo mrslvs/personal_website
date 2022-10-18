@@ -4,6 +4,7 @@ import './Assets/Styles/index.css';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Header from './Layouts/Header';
 import Footer from './Layouts/Footer';
+import Main from './Layouts/Main';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
             </Routes>
         </BrowserRouter> */}
         <Header />
+        <Main />
         <Footer />
     </React.StrictMode>
 );
