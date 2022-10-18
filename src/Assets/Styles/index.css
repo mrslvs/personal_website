@@ -24,10 +24,6 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-header {
-    height: 70px;
-}
-
 section {
     height: calc(100vh - 70px);
 }
