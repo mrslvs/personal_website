@@ -1,0 +1,19 @@
+section {
+    height: calc(100vh - 70px);
+}
+
+#about {
+    background-color: bisque;
+}
+
+#projects {
+    background-color: thistle;
+}
+
+#skills {
+    background-color: skyblue;
+}
+
+#contact {
+    background-color: chartreuse;
+}
