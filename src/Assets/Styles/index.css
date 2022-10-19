@@ -12,6 +12,10 @@ html {
     font-family: 'Source Sans Pro', Montserrat, 'Lucida Sans', 'Lucida Sans Regular',
         'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Source Sans Pro', 'Segoe UI', 'Roboto',
