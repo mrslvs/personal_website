@@ -3,17 +3,71 @@ section {
 }
 
 #about {
-    background-color: bisque;
+    /* CIRLCE */
+    /* background: rgb(255, 255, 255);
+    background: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(200, 238, 255, 1) 23%,
+        rgba(73, 175, 219, 1) 80%,
+        rgba(48, 147, 191, 1) 100%
+    ); */
+
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(200, 254, 255, 1) 23%,
+        rgba(73, 216, 219, 1) 80%,
+        rgba(48, 178, 191, 1) 100%
+    );
+
+    display: flex;
+    align-items: center;
+
+    padding: 10rem;
+    gap: 15rem;
+}
+
+#portrait {
+    width: 400px;
+    clip-path: circle();
+}
+
+.about-text {
+    font-size: 3rem;
+    font-weight: bold;
 }
 
 #projects {
-    background-color: thistle;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(200, 238, 255, 1) 23%,
+        rgba(73, 175, 219, 1) 80%,
+        rgba(48, 147, 191, 1) 100%
+    );
 }
 
 #skills {
-    background-color: skyblue;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(200, 203, 255, 1) 23%,
+        rgba(73, 73, 219, 1) 80%,
+        rgba(48, 51, 191, 1) 100%
+    );
 }
 
 #contact {
-    background-color: chartreuse;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(222, 200, 255, 1) 23%,
+        rgba(144, 73, 219, 1) 80%,
+        rgba(122, 48, 191, 1) 100%
+    );
 }

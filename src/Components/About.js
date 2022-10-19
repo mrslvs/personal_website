@@ -4,9 +4,11 @@ import portrait from '../Assets/Images/linkedin_profile_photo.jpeg';
 const About = () => {
     return (
         <section id="about">
-            {/* <img src={portrait} /> */}
-            <p>IT student based in Bratislava with passion for web development.</p>
-            <p>Currently learning ReactJS and NodeJS</p>
+            <img src={portrait} id="portrait" />
+            <div className="about-text">
+                <p>IT student based in Bratislava with passion for web development.</p>
+                <p>Currently learning ReactJS and NodeJS</p>
+            </div>
         </section>
     );
 };
