@@ -10,17 +10,7 @@ const Main = () => {
     let heightOfSection;
     let delimeters;
 
-    const [dimensions, setDimensions] = useState({
-        width: window.innerWidth,
-        height: window.innerHeight,
-    });
-
     const handleResize = () => {
-        setDimensions({
-            width: window.innerWidth,
-            height: window.innerHeight,
-        });
-
         heightOfSection = (document.body.scrollHeight - 70) / 4;
         const firstDelimeter = heightOfSection / 2;
 
@@ -41,35 +31,14 @@ const Main = () => {
         // handle window resize
         window.addEventListener('resize', handleResize, false);
 
-        // get height of section after loading & window resize
-        // heightOfSection = (document.body.scrollHeight - 70) / 4;
-        // const firstDelimeter = heightOfSection / 2;
-
-        // delimeters = [
-        //     firstDelimeter,
-        //     firstDelimeter + heightOfSection,
-        //     firstDelimeter + heightOfSection * 2,
-        // ];
-
         window.addEventListener('scroll', () => {
-            console.log(window.pageYOffset);
+            // console.log(window.pageYOffset);
 
             setActiveSection(window.pageYOffset, delimeters);
         });
     }, []);
 
-    // const { scrollHeight } = document.body.innerHTML;
-    // const [windowHeight, setWindowHeight] = useState(scrollHeight);
-    // console.log(window.pageYOffset);
-
     const setActiveSection = (y, delimeters) => {
-        // const about = document.getElementById('about-link');
-        // const projects = document.getElementById('projects-link');
-        // const skills = document.getElementById('skills-link');
-        // const contact = document.getElementById('contact-link');
-
-        // const sections = [about, projects, skills, contact];
-
         if (y < delimeters[0]) {
             handleSectionClass(0);
         } else if (y > delimeters[0] && y < delimeters[1]) {
@@ -94,6 +63,7 @@ const Main = () => {
                 sections[i].classList.add('active-section');
             } else {
                 if (sections[i].classList.contains('active-section')) {
+                    console.log('removing active from ' + i);
                     sections[i].classList.remove('active-section');
                 }
             }

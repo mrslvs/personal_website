@@ -3,6 +3,8 @@ import { Link } from 'react-scroll';
 import '../Assets/Styles/header.css';
 
 const Header = () => {
+    // suppressing spy={true} so it does not manipulate classList
+
     return (
         <header>
             <h1>Miroslav Sekerka</h1>
@@ -11,7 +13,7 @@ const Header = () => {
                     <li>
                         <Link
                             to="about"
-                            spy={true}
+                            // spy={true}
                             smooth={true}
                             offset={-70}
                             duration={500}
@@ -24,7 +26,7 @@ const Header = () => {
                     <li>
                         <Link
                             to="projects"
-                            spy={true}
+                            // spy={true}
                             smooth={true}
                             offset={-70}
                             duration={500}
@@ -36,7 +38,7 @@ const Header = () => {
                     <li>
                         <Link
                             to="skills"
-                            spy={true}
+                            // spy={true}
                             smooth={true}
                             offset={-70}
                             duration={500}
@@ -48,7 +50,7 @@ const Header = () => {
                     <li>
                         <Link
                             to="contact"
-                            spy={true}
+                            // spy={true}
                             smooth={true}
                             offset={-70}
                             duration={500}
