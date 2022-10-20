@@ -14,6 +14,8 @@ header {
 }
 
 h1 {
+    color: rgb(0, 0, 112);
+    /* font-style: italic; */
     font-size: 5rem;
     padding-left: 2rem;
 }
@@ -42,4 +44,70 @@ nav > ul > li:hover {
     color: cadetblue;
     /* border-style: ; */
     box-shadow: inset 0 -2px 0 cadetblue;
+}
+
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    nav {
+        font-size: 1.5rem;
+    }
+
+    nav > ul {
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    nav > ul {
+        gap: 2.5rem;
+    }
+}
+
+@media (max-width: 650px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    nav > ul {
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 570px) {
+    h1 {
+        font-size: 2.5rem;
+        word-spacing: 100vw;
+    }
+
+    nav {
+        font-size: 1.5rem;
+        padding-right: 1rem;
+    }
+
+    nav > ul {
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 430px) {
+    nav > ul {
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 380px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    nav {
+        font-size: 1.3rem;
+    }
 }
