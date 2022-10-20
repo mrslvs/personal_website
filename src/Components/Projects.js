@@ -32,7 +32,7 @@ const Projects = () => {
                     <p>More information available on GitHub.</p>
                     {/* <GoLogoGithub className="github-link" /> */}
                     <div className="github-link-container">
-                        <a href="https://github.com/mrslvs/todo" className="github-link">
+                        <a href="https://github.com/mrslvs/fakturacia" className="github-link">
                             <AiFillGithub className="github-logo" />
                             <span>Github</span>
                         </a>
