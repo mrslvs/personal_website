@@ -69,9 +69,8 @@ const Skilss = () => {
                     <div className="skill-information">
                         <p className="skill-level">Intermediate</p>
                         <p className="skill-description">
-                            Currently learning ReactJS library to build modern frontend
-                            applicationsCurrently learning how to build server-side code with
-                            ExpressJS and Sequelize ORM
+                            Currently learning how to build server-side code with ExpressJS and
+                            Sequelize ORM
                         </p>
                     </div>
                 </div>
@@ -90,7 +89,7 @@ const Skilss = () => {
                     </div>
                 </div>
 
-                <div className="skill">
+                {/* <div className="skill">
                     <div className="skill-header">
                         <SiPhp className="skill-logo" />
                         <h3 className="skill-name">PHP</h3>
@@ -102,7 +101,7 @@ const Skilss = () => {
                             or API
                         </p>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="skill">
                     <div className="skill-header">
