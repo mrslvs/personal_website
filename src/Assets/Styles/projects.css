@@ -22,30 +22,112 @@
     grid-template-columns: 1fr 1fr;
     height: 100%;
     align-items: center;
-    /* gap: 1rem; */
 }
 
 .portfolio-project {
     display: flex;
     flex-direction: column;
-    align-items: center;
-
+    background-color: whitesmoke;
+    max-width: 40vw;
     border-radius: 1.5rem;
 
-    margin: 0 3rem 0 3rem;
+    margin-left: auto;
+    margin-right: auto;
 
-    /* margin: 2rem; */
-    /* padding: 2rem; */
-
-    background-color: aliceblue;
-    border: 2px solid red;
-}
-
-.portfolio-project > h3 {
-    font-size: 3rem;
+    min-height: 70vh;
 }
 
 .portfolio-project > img {
     max-height: 40vh;
     max-width: 40vw;
+
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+
+    margin-bottom: 1rem;
+}
+
+.portfolio-project > h3 {
+    font-size: 3rem;
+    margin: 0 0 1rem 1rem;
+}
+
+.portfolio-project > p {
+    font-size: 2rem;
+    margin: 0 0 1rem 1rem;
+}
+
+.github-link-container {
+    display: flex;
+    color: rgb(0, 0, 0);
+    align-self: center;
+
+    margin-top: auto;
+    margin-bottom: 1rem;
+}
+
+.github-link-container > a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.github-link-container > a:visited {
+    color: black;
+}
+
+.github-logo {
+    font-size: 8rem;
+}
+
+.github-link-container:hover {
+    cursor: pointer;
+
+    /* transition: color 500ms;
+    color: rgb(18, 18, 18); */
+    transition: box-shadow 500ms;
+    box-shadow: inset 0 -2px 0 black;
+}
+
+.github-link > span {
+    font-size: 5rem;
+}
+
+@media (max-width: 1000px) {
+    .portfolio-project > p {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .portfolio-project > h3 {
+        font-size: 2.3rem;
+    }
+
+    .portfolio-project > p {
+        font-size: 1.5rem;
+    }
+
+    .github-logo {
+        font-size: 5rem;
+    }
+
+    .github-link > span {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 650px) {
+    #projects > h2 {
+        font-size: 3rem;
+    }
+
+    .portfolio-project {
+        max-width: 45vw;
+        min-height: 50vh;
+    }
+
+    .portfolio-project > img {
+        max-width: 45vw;
+    }
 }
