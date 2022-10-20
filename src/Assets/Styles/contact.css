@@ -41,6 +41,11 @@
     font-size: 1.6rem;
 }
 
+.contact-link:link {
+    color: white;
+    text-decoration: none;
+}
+
 .contact-link:visited {
     color: white;
     text-decoration: none;
