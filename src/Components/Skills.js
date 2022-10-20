@@ -17,7 +17,7 @@ const Skilss = () => {
                     </div>
                     <div className="skill-information">
                         <p className="skill-level">Advanced</p>
-                        <p className="skill-description">I produce valid HTML5 code</p>
+                        <p className="skill-description">I write valid HTML5 code</p>
                     </div>
                 </div>
 
@@ -29,8 +29,8 @@ const Skilss = () => {
                     <div className="skill-information">
                         <p className="skill-level">Advanced</p>
                         <p className="skill-description">
-                            I've tried Tailwind and Bootstrap, but I ussualy do not use any
-                            frameworks
+                            Most of the time I use basic CSS altough I've tried Tailwind and
+                            Bootstrap
                         </p>
                     </div>
                 </div>
@@ -98,7 +98,7 @@ const Skilss = () => {
                         <p className="skill-level">Advanced Beginner</p>
                         <p className="skill-description">
                             I use linux console with TMUX terminal to run my scripts, git commands
-                            and manage files
+                            and to manage files
                         </p>
                     </div>
                 </div>
