@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Assets/Styles/about.css';
 import portrait from '../Assets/Images/linkedin_profile_photo.jpeg';
 
 const About = () => {

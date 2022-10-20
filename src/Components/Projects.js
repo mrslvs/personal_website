@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Assets/Styles/projects.css';
 import { GoLogoGithub } from 'react-icons/go';
 import todo from '../Assets/Images/todo.png';
 import fakturacia from '../Assets/Images/fakturacia.png';
