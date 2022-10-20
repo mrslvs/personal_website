@@ -34,3 +34,61 @@
     font-size: 3rem;
     font-weight: bold;
 }
+
+@media (max-width: 1000px) {
+    #portrait {
+        width: 30vw;
+    }
+
+    .about-text {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 800px) {
+    #about {
+        padding: 5rem;
+        gap: 8rem;
+    }
+
+    #portrait {
+        width: 35vw;
+    }
+
+    .about-text {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 650px) {
+    #about {
+        padding: 5rem;
+        gap: 5rem;
+    }
+
+    #portrait {
+        width: 30vw;
+    }
+
+    .about-text {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 570px) {
+    #about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        gap: 2rem;
+    }
+
+    #portrait {
+        width: 45vw;
+    }
+
+    .about-text {
+        font-size: 2rem;
+    }
+}
