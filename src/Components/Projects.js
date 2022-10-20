@@ -1,6 +1,5 @@
 import React from 'react';
 import '../Assets/Styles/projects.css';
-import { GoLogoGithub } from 'react-icons/go';
 import { AiFillGithub } from 'react-icons/ai';
 import todo from '../Assets/Images/todo.png';
 import fakturacia from '../Assets/Images/fakturacia.png';
@@ -14,7 +13,7 @@ const Projects = () => {
                     <img src={todo} />
                     <h3>Javascript TODO app</h3>
                     <p>My first vanilla javascript project with emphasis on OOP </p>
-                    {/* <GoLogoGithub className="github-link" /> */}
+
                     <div className="github-link-container">
                         <a href="https://github.com/mrslvs/todo" className="github-link">
                             <AiFillGithub className="github-logo" />
@@ -30,7 +29,7 @@ const Projects = () => {
                         ExpressJS, ReactJS, NodeJS.
                     </p>
                     <p>More information available on GitHub.</p>
-                    {/* <GoLogoGithub className="github-link" /> */}
+
                     <div className="github-link-container">
                         <a href="https://github.com/mrslvs/fakturacia" className="github-link">
                             <AiFillGithub className="github-logo" />
