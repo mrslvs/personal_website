@@ -89,20 +89,6 @@ const Skilss = () => {
                     </div>
                 </div>
 
-                {/* <div className="skill">
-                    <div className="skill-header">
-                        <SiPhp className="skill-logo" />
-                        <h3 className="skill-name">PHP</h3>
-                    </div>
-                    <div className="skill-information">
-                        <p className="skill-level">Beginner</p>
-                        <p className="skill-description">
-                            During my studies I programmed basic PHP projects such as login system
-                            or API
-                        </p>
-                    </div>
-                </div> */}
-
                 <div className="skill">
                     <div className="skill-header">
                         <FaUbuntu className="skill-logo" />

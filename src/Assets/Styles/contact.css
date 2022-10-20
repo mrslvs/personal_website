@@ -7,4 +7,69 @@
         rgba(144, 73, 219, 1) 80%,
         rgba(122, 48, 191, 1) 100%
     );
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact-option {
+    display: flex;
+    gap: 2rem;
+    width: 30vw;
+    align-items: center;
+
+    background-color: rgb(85, 25, 142);
+    color: white;
+    padding: 2rem;
+}
+
+.contact-logo {
+    font-size: 3rem;
+}
+
+.contact-link {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    color: white;
+}
+
+.contact-link:hover {
+    transition: font-size 500ms;
+    font-size: 1.6rem;
+}
+
+.contact-link:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-option > p {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1000px) {
+    .contact-option {
+        width: 40vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .contact-option {
+        width: 60vw;
+    }
+}
+
+@media (max-width: 650px) {
+    .contact-option {
+        width: 70vw;
+    }
+}
+
+@media (max-width: 430px) {
+    .contact-option {
+        width: 90vw;
+    }
 }
