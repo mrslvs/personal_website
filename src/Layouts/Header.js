@@ -9,22 +9,51 @@ const Header = () => {
             <nav>
                 <ul>
                     <li>
-                        <Link to="about" spy={true} smooth={true} offset={-70} duration={500}>
+                        <Link
+                            to="about"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                            id="about-link"
+                            className="active-section"
+                        >
                             About
                         </Link>
                     </li>
                     <li>
-                        <Link to="projects" spy={true} smooth={true} offset={-70} duration={500}>
+                        <Link
+                            to="projects"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                            id="projects-link"
+                        >
                             Projects
                         </Link>
                     </li>
                     <li>
-                        <Link to="skills" spy={true} smooth={true} offset={-70} duration={500}>
+                        <Link
+                            to="skills"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                            id="skills-link"
+                        >
                             Skills
                         </Link>
                     </li>
                     <li>
-                        <Link to="contact" spy={true} smooth={true} offset={-70} duration={500}>
+                        <Link
+                            to="contact"
+                            spy={true}
+                            smooth={true}
+                            offset={-70}
+                            duration={500}
+                            id="contact-link"
+                        >
                             Contact
                         </Link>
                     </li>
