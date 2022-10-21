@@ -29,7 +29,7 @@ const Skilss = () => {
                     <div className="skill-information">
                         <p className="skill-level">Advanced</p>
                         <p className="skill-description">
-                            Most of the time I use basic CSS altough I've tried Tailwind and
+                            Most of the time I use basic CSS although I've tried Tailwind and
                             Bootstrap
                         </p>
                     </div>
@@ -38,12 +38,12 @@ const Skilss = () => {
                 <div className="skill">
                     <div className="skill-header">
                         <TbBrandJavascript className="skill-logo" />
-                        <h3 className="skill-name">Javascript</h3>
+                        <h3 className="skill-name">JavaScript</h3>
                     </div>
                     <div className="skill-information">
                         <p className="skill-level">Advanced</p>
                         <p className="skill-description">
-                            I understand both basic and advanced features of modern javascript
+                            I understand both basic and advanced features of modern JavaScript
                         </p>
                     </div>
                 </div>
@@ -83,8 +83,8 @@ const Skilss = () => {
                     <div className="skill-information">
                         <p className="skill-level">Intermediate</p>
                         <p className="skill-description">
-                            I understand basics of realtional databases and I am able to work with
-                            data using SQL language
+                            I understand basics of realtional databases and I am able to write
+                            database queries
                         </p>
                     </div>
                 </div>
@@ -97,8 +97,8 @@ const Skilss = () => {
                     <div className="skill-information">
                         <p className="skill-level">Advanced Beginner</p>
                         <p className="skill-description">
-                            I use linux console with TMUX terminal to run my scripts, git commands
-                            and to manage files
+                            I use linux console with to run my scripts, git commands and to manage
+                            files
                         </p>
                     </div>
                 </div>
@@ -110,7 +110,7 @@ const Skilss = () => {
                     <div className="skill-information">
                         <p className="skill-level">Advanced</p>
                         <p className="skill-description">
-                            When developing, I actively use Git with GitHub for version control
+                            I actively use Git with GitHub for version control
                         </p>
                     </div>
                 </div>
