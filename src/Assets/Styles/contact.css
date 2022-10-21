@@ -43,12 +43,12 @@
 
 .contact-link:link {
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .contact-link:visited {
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .contact-option > p {
