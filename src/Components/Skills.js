@@ -97,8 +97,7 @@ const Skilss = () => {
                     <div className="skill-information">
                         <p className="skill-level">Advanced Beginner</p>
                         <p className="skill-description">
-                            I use linux console with to run my scripts, git commands and to manage
-                            files
+                            I use linux console to run my scripts, git commands and to manage files
                         </p>
                     </div>
                 </div>
