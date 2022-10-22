@@ -1,12 +1,40 @@
 #contact {
-    background: rgb(255, 255, 255);
-    background: linear-gradient(
+    /* background: rgb(255, 255, 255); */
+    /* background: linear-gradient(
         180deg,
         rgb(235, 221, 255) 0%,
         rgba(222, 200, 255, 1) 23%,
         rgba(144, 73, 219, 1) 80%,
         rgba(122, 48, 191, 1) 100%
-    );
+    ); */
+
+    /* background: linear-gradient(
+        180deg,
+        rgb(255, 255, 255) 0%,
+        rgba(200, 238, 255, 1) 12.5%,
+        rgba(73, 175, 219, 1) 25%,
+        rgba(48, 147, 191, 1) 37.5%,
+        rgb(33, 189, 206) 50%,
+        rgba(48, 147, 191, 1) 50%,
+        rgba(73, 175, 219, 1) 62.5%,
+        rgba(200, 238, 255, 1) 75%,
+        rgb(255, 255, 255) 100%
+    ); */
+
+    /* background: linear-gradient(
+        180deg,
+        rgb(255, 255, 255) 0%,
+
+        rgb(168, 249, 255) 30%,
+        rgb(134, 247, 255) 37.5%,
+
+        rgb(95, 244, 255) 50%,
+
+        rgb(134, 247, 255) 62.5%,
+        rgb(168, 249, 255) 70%,
+
+        rgb(255, 255, 255) 100%
+    ); */
 
     display: flex;
     flex-direction: column;
