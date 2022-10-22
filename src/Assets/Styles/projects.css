@@ -14,7 +14,9 @@
 
 #projects > h2 {
     font-size: 3rem;
+    font-style: italic;
     padding: 1rem;
+    align-self: center;
 }
 
 .projects-container {

@@ -13,6 +13,9 @@
     font-size: 4rem;
     margin-left: 1rem;
     margin-bottom: 2rem;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
 }
 
 .skills-grid {
