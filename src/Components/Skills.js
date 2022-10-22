@@ -95,7 +95,7 @@ const Skilss = () => {
                         <h3 className="skill-name">Linux</h3>
                     </div>
                     <div className="skill-information">
-                        <p className="skill-level">Advanced Beginner</p>
+                        <p className="skill-level">Intermediate</p>
                         <p className="skill-description">
                             I use linux console to run my scripts and git commands and to manage
                             files
