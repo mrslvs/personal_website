@@ -54,7 +54,7 @@ const Skilss = () => {
                         <h3 className="skill-name">ReactJS</h3>
                     </div>
                     <div className="skill-information">
-                        <p className="skill-level">Advanced Beginner</p>
+                        <p className="skill-level">Beginner</p>
                         <p className="skill-description">
                             Currently learning ReactJS library to build modern frontend applications
                         </p>
@@ -83,7 +83,7 @@ const Skilss = () => {
                     <div className="skill-information">
                         <p className="skill-level">Intermediate</p>
                         <p className="skill-description">
-                            I understand basics of realtional databases and I am able to write
+                            I understand basics of relational databases and I am able to write
                             database queries
                         </p>
                     </div>
@@ -97,7 +97,8 @@ const Skilss = () => {
                     <div className="skill-information">
                         <p className="skill-level">Advanced Beginner</p>
                         <p className="skill-description">
-                            I use linux console to run my scripts, git commands and to manage files
+                            I use linux console to run my scripts and git commands and to manage
+                            files
                         </p>
                     </div>
                 </div>

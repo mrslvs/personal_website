@@ -8,7 +8,7 @@ const About = () => {
             <img src={portrait} id="portrait" />
             <div className="about-text">
                 <p>IT student based in Bratislava with passion for web development.</p>
-                <p>Currently learning ReactJS and NodeJS</p>
+                <p>Currently learning ReactJS and NodeJS.</p>
             </div>
         </section>
     );
