@@ -19,8 +19,6 @@ const Main = () => {
             firstDelimeter + heightOfSection,
             firstDelimeter + heightOfSection * 2,
         ];
-
-        // setActiveSection(window.pageYOffset, delimeters);
     };
 
     useEffect(() => {
@@ -32,8 +30,6 @@ const Main = () => {
         window.addEventListener('resize', handleResize, false);
 
         window.addEventListener('scroll', () => {
-            // console.log(window.pageYOffset);
-
             setActiveSection(window.pageYOffset, delimeters);
         });
     }, []);
@@ -63,7 +59,6 @@ const Main = () => {
                 sections[i].classList.add('active-section');
             } else {
                 if (sections[i].classList.contains('active-section')) {
-                    console.log('removing active from ' + i);
                     sections[i].classList.remove('active-section');
                 }
             }
