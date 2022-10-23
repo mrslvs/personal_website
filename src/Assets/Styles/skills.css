@@ -1,4 +1,4 @@
-#skills > h2 {
+#skills-section > h2 {
     font-size: 4rem;
     margin-left: 1rem;
     margin-bottom: 2rem;
@@ -49,7 +49,7 @@
 }
 
 @media (max-width: 1000px) {
-    #skills > h2 {
+    #skills-section > h2 {
         font-size: 3rem;
         margin-bottom: 1rem;
     }
@@ -84,7 +84,7 @@
 }
 
 @media (max-width: 570px) {
-    #skills > h2 {
+    #skills-section > h2 {
         font-size: 2rem;
         margin-bottom: 0.5rem;
     }
@@ -108,7 +108,7 @@
 }
 
 @media (max-width: 380px) {
-    #skills > h2 {
+    #skills-section > h2 {
         font-size: 1.7rem;
         margin-bottom: 0.5rem;
     }

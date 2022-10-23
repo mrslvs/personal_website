@@ -51,7 +51,7 @@ const Header = () => {
                             Skills
                         </Link> */}
 
-                        <a href="#scroll-here-skills">Skills</a>
+                        <a href="#skills">Skills</a>
                     </li>
                     <li>
                         {/* <Link

@@ -7,8 +7,8 @@ import { SiMysql, SiPhp, SiGithub } from 'react-icons/si';
 
 const Skilss = () => {
     return (
-        <section id="skills">
-            <a class="anchor" id="scroll-here-skills"></a>
+        <section id="skills-section">
+            <a class="anchor" id="skills"></a>
             <h2>Technologies I worked with</h2>
             <div className="skills-grid">
                 <div className="skill">
