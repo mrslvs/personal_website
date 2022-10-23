@@ -67,6 +67,7 @@ const Main = () => {
 
     return (
         <main>
+            <a class="anchor" id="scroll-here-about"></a>
             <About />
             <Projects />
             <Skills />
