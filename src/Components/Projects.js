@@ -11,8 +11,8 @@ const Projects = () => {
             <div className="projects-container">
                 <div className="portfolio-project">
                     <img src={todo} />
-                    <h3>Javascript TODO app</h3>
-                    <p>My first vanilla javascript project with emphasis on OOP </p>
+                    <h3>JavaScript TODO app</h3>
+                    <p>My first vanilla JavaScript project with emphasis on OOP </p>
 
                     <div className="github-link-container">
                         <a href="https://github.com/mrslvs/todo" className="github-link">
@@ -25,7 +25,7 @@ const Projects = () => {
                     <img src={fakturacia} />
                     <h3>Fullstack app</h3>
                     <p>
-                        My first fullstack javascript application (still in progress) using MySQL,
+                        My first fullstack JavaScript application (still in progress) using MySQL,
                         ExpressJS, ReactJS, NodeJS.
                     </p>
                     <p>More information available on GitHub.</p>
