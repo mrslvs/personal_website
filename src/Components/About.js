@@ -5,6 +5,7 @@ import portrait from '../Assets/Images/linkedin_profile_photo.jpeg';
 const About = () => {
     return (
         <section id="about">
+            <a class="anchor" id="scroll-here-about"></a>
             <img src={portrait} id="portrait" />
             <div className="about-text">
                 <p>IT student based in Bratislava with passion for web development.</p>

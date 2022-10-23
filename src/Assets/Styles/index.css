@@ -19,6 +19,8 @@ html {
 
     /* height: 100%;
     overflow: hidden; */
+
+    scroll-behavior: smooth;
 }
 /* ::-webkit-scrollbar {
     width: 0;
@@ -36,4 +38,11 @@ body {
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
 }

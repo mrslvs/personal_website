@@ -6,6 +6,7 @@ import { FaLinkedin, FaMapMarkerAlt } from 'react-icons/fa';
 const Contact = () => {
     return (
         <section id="contact">
+            <a class="anchor" id="scroll-here-contact"></a>
             <div className="contact-option">
                 <FaLinkedin className="contact-logo" />
                 <a href="https://www.linkedin.com/in/miroslav-sekerka/" className="contact-link">

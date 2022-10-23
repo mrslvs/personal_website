@@ -7,6 +7,7 @@ import fakturacia from '../Assets/Images/fakturacia.png';
 const Projects = () => {
     return (
         <section id="projects">
+            <a class="anchor" id="scroll-here-projects"></a>
             <h2>My projects</h2>
             <div className="projects-container">
                 <div className="portfolio-project">

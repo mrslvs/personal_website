@@ -11,7 +11,7 @@ const Header = () => {
             <nav>
                 <ul>
                     <li>
-                        <Link
+                        {/* <Link
                             to="about"
                             // spy={true}
                             smooth={true}
@@ -21,10 +21,12 @@ const Header = () => {
                             className="active-section"
                         >
                             About
-                        </Link>
+                        </Link> */}
+
+                        <a href="#scroll-here-about">About</a>
                     </li>
                     <li>
-                        <Link
+                        {/* <Link
                             to="projects"
                             // spy={true}
                             smooth={true}
@@ -33,10 +35,12 @@ const Header = () => {
                             id="projects-link"
                         >
                             Projects
-                        </Link>
+                        </Link> */}
+
+                        <a href="#scroll-here-projects">Projects</a>
                     </li>
                     <li>
-                        <Link
+                        {/* <Link
                             to="skills"
                             // spy={true}
                             smooth={true}
@@ -45,10 +49,12 @@ const Header = () => {
                             id="skills-link"
                         >
                             Skills
-                        </Link>
+                        </Link> */}
+
+                        <a href="#scroll-here-skills">Skills</a>
                     </li>
                     <li>
-                        <Link
+                        {/* <Link
                             to="contact"
                             // spy={true}
                             smooth={true}
@@ -57,7 +63,9 @@ const Header = () => {
                             id="contact-link"
                         >
                             Contact
-                        </Link>
+                        </Link> */}
+
+                        <a href="#scroll-here-contact">Contact</a>
                     </li>
                 </ul>
             </nav>
