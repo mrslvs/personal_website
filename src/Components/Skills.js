@@ -83,7 +83,7 @@ const Skilss = () => {
                     <div className="skill-information">
                         <p className="skill-level">Intermediate</p>
                         <p className="skill-description">
-                            I have basic knowledge of Laravel but during my studies I programmed
+                            I have basic knowledge of Laravel, but during my studies I programmed
                             school projects in vanilla PHP.
                         </p>
                     </div>
