@@ -23,7 +23,9 @@ const Header = () => {
                             About
                         </Link> */}
 
-                        <a href="#about">About</a>
+                        <a href="#about" id="about-link" className="active-section">
+                            About
+                        </a>
                     </li>
                     <li>
                         {/* <Link
@@ -37,7 +39,9 @@ const Header = () => {
                             Projects
                         </Link> */}
 
-                        <a href="#projects">Projects</a>
+                        <a href="#projects" id="projects-link">
+                            Projects
+                        </a>
                     </li>
                     <li>
                         {/* <Link
@@ -51,7 +55,9 @@ const Header = () => {
                             Skills
                         </Link> */}
 
-                        <a href="#skills">Skills</a>
+                        <a href="#skills" id="skills-link">
+                            Skills
+                        </a>
                     </li>
                     <li>
                         {/* <Link
@@ -65,7 +71,9 @@ const Header = () => {
                             Contact
                         </Link> */}
 
-                        <a href="#contact">Contact</a>
+                        <a href="#contact" id="contact-link">
+                            Contact
+                        </a>
                     </li>
                 </ul>
             </nav>
