@@ -65,7 +65,7 @@ const Header = () => {
                             Contact
                         </Link> */}
 
-                        <a href="#scroll-here-contact">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </nav>
