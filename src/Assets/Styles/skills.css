@@ -106,3 +106,26 @@
         font-size: 1.5rem;
     }
 }
+
+@media (max-width: 380px) {
+    #skills > h2 {
+        font-size: 1.7rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .skill {
+        padding: 0.7rem;
+    }
+
+    .skill-logo {
+        font-size: 1.5rem;
+    }
+
+    .skill-name {
+        font-size: 1.5rem;
+    }
+
+    .skill-description {
+        font-size: 1.3rem;
+    }
+}
