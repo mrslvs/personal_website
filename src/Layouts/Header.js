@@ -37,7 +37,7 @@ const Header = () => {
                             Projects
                         </Link> */}
 
-                        <a href="#scroll-here-projects">Projects</a>
+                        <a href="#projects">Projects</a>
                     </li>
                     <li>
                         {/* <Link

@@ -1,9 +1,9 @@
-#projects {
+#projects-section {
     display: flex;
     flex-direction: column;
 }
 
-#projects > h2 {
+#projects-section > h2 {
     font-size: 3rem;
     font-style: italic;
     padding: 1rem;
@@ -119,7 +119,7 @@
 }
 
 @media (max-width: 650px) {
-    #projects > h2 {
+    #projects-section > h2 {
         font-size: 3rem;
     }
 
