@@ -67,10 +67,24 @@ const Skilss = () => {
                         <h3 className="skill-name">NodeJS</h3>
                     </div>
                     <div className="skill-information">
-                        <p className="skill-level">Intermediate</p>
+                        <p className="skill-level">Beginner</p>
                         <p className="skill-description">
                             Currently learning how to build server-side code with ExpressJS and
                             Sequelize ORM
+                        </p>
+                    </div>
+                </div>
+
+                <div className="skill">
+                    <div className="skill-header">
+                        <SiPhp className="skill-logo" />
+                        <h3 className="skill-name">PHP</h3>
+                    </div>
+                    <div className="skill-information">
+                        <p className="skill-level">Intermediate</p>
+                        <p className="skill-description">
+                            I have basic knowledge of Laravel but during my studies I programmed
+                            school projects in vanilla PHP.
                         </p>
                     </div>
                 </div>
