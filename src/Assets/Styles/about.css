@@ -1,4 +1,4 @@
-#about {
+#about-section {
     display: flex;
     align-items: center;
 
@@ -27,7 +27,7 @@
 }
 
 @media (max-width: 800px) {
-    #about {
+    #about-section {
         padding: 5rem;
         gap: 8rem;
     }
@@ -42,7 +42,7 @@
 }
 
 @media (max-width: 650px) {
-    #about {
+    #about-section {
         padding: 5rem;
         gap: 5rem;
     }
@@ -57,7 +57,7 @@
 }
 
 @media (max-width: 570px) {
-    #about {
+    #about-section {
         display: flex;
         flex-direction: column;
         justify-content: center;

@@ -23,7 +23,7 @@ const Header = () => {
                             About
                         </Link> */}
 
-                        <a href="#scroll-here-about">About</a>
+                        <a href="#about">About</a>
                     </li>
                     <li>
                         {/* <Link

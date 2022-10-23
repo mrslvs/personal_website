@@ -4,7 +4,7 @@ import portrait from '../Assets/Images/linkedin_profile_photo.jpeg';
 
 const About = () => {
     return (
-        <section id="about">
+        <section id="about-section">
             {/* to scroll to the top, moved anchor element into the Main.js component */}
             {/* <a class="anchor" id="scroll-here-about"></a> */}
             <img src={portrait} id="portrait" />
